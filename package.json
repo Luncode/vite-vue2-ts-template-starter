@@ -1,0 +1,28 @@
+{
+  "name": "vite-vue2-simple-starter",
+  "version": "0.0.1",
+  "scripts": {
+    "serve": "vite",
+    "serve:dev": "vite --mode development",
+    "serve:prod": "vite --mode production",
+    "build": "vite build",
+    "build:dev": "vite build --mode development",
+    "build:prod": "vite build --mode production"
+  },
+  "dependencies": {
+    "@vue/composition-api": "^1.6.2",
+    "axios": "^0.25.0",
+    "vite": "^2.7.13",
+    "vue": "^2.6.14",
+    "vue-router": "^3.5.3",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-legacy": "^1.6.4",
+    "sass": "^1.49.0",
+    "typescript": "^4.7.4",
+    "vite-plugin-compression": "^0.4.0",
+    "vite-plugin-vue2": "^1.9.2",
+    "vue-template-compiler": "^2.6.14"
+  }
+}
